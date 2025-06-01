@@ -43,10 +43,10 @@ a {
 }
 
 .profile-img {
-  width: 150px;        /* adjust width */
-  height: 150px;       /* adjust height */
-  object-fit: cover;   /* crop nicely if image isn't square */
-  border-radius: 50%;  /* make it a circle */
+  max-width: 150px;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
   display: block;
   margin: 0 auto 20px;
 }
